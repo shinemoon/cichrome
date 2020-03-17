@@ -1,0 +1,20 @@
+﻿{
+	"name": "CiChrome",
+	"version": "1.2.1",
+	"description": "在新标签页随机显示一首词作。",
+	"background":{
+		"page":"background.html"
+	},
+	"manifest_version": 2,
+	"icons": {
+	"48": "images/icon.png",
+	"128": "images/icon.png"
+  	},
+    "chrome_url_overrides" : {
+        "newtab": "CiChrome.html"
+    },
+  	"permissions": [
+		"http://sou-yun.com/*",
+		"https://sou-yun.cn/*"
+	]
+}
